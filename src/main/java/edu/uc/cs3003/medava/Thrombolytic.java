@@ -8,13 +8,13 @@ public class Thrombolytic extends Medicine {
 
     @Override
     public double minimumTemperature() {
-        System.out.println("Getting the minimum safe temperature for a Thrombolytic drug.");
+        System.out.print("Getting the minimum safe temperature for a Thrombolytic drug.\n");
         return 39.2;
     }
 
     @Override
     public double maximumTemperature() {
-        System.out.println("Getting the maximum safe temperature for a Thrombolytic drug.");
+        System.out.print("Getting the maximum safe temperature for a Thrombolytic drug.\n");
         return 41.0;
     }
 
