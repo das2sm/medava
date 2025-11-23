@@ -1,1 +1,7 @@
-Your questions here.
+In the README, it mentions that Java uses nominal type equivalency. Does this mean that even if two unrelated classes have the exact same method signatures (same names and parameters), Java will never treat them as compatible without an Interface? Is there any scenario in modern Java where "structural" typing applies?
+
+When using Reflection in the earlier part of the assignment, we had to catch multiple exceptions (NoSuchMethodException, etc.). Is there a significant performance cost to using try-catch blocks inside a loop like while (!t.isEmpty()) compared to using Interfaces?
+
+We used Double (the wrapper class) instead of double (the primitive) for the temperature methods to make Reflection easier. Does using the wrapper class Double add overhead due to boxing/unboxing when we are just doing simple comparison math?
+
+The assignment mentions that static methods (like main) don't have access to instance variables. If I wanted to access a non-static variable from main, would I always have to create an instance of the class first, or is there another way to bridge that gap?
